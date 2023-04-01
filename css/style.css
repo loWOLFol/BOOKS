@@ -1,0 +1,46 @@
+body{
+  background: #eeecf0;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #615586;
+  width: 100%;
+}
+
+.logo a {
+  color: #d9caed;
+  font-size: 70px;
+  text-decoration: none;
+  padding: 15px 0;
+  text-align: center;
+}
+
+.logo a:hover {
+  animation: rv 2s infinite;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes rv {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+.color1 {color: #120907;}
+.color2 {color: #29233f;}
+.color3 {color: #615586;}
+.color4 {color: #9d92e1;}
+.color5 {color: #d9caed;}
