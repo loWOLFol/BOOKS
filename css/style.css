@@ -9,16 +9,46 @@ header {
   width: 100%;
 }
 
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu div {
+  padding: 20px;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav a{
+  text-decoration: none;
+  color: #d9caed;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 10px;
+  padding: 5px;
+}
+
+.nav a:hover {
+  color: #9d92e1;
+  border-bottom: 1px #d9caed solid;
+}
+
 .logo a {
   color: #d9caed;
   font-size: 70px;
   text-decoration: none;
-  padding: 15px 0;
   text-align: center;
 }
 
 .logo a:hover {
   animation: rv 2s infinite;
+  color: #9d92e1;
 }
 
 .logo {
