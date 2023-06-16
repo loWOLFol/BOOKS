@@ -23,8 +23,15 @@ a {
 .nav {
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  margin: 0 150px;
+  justify-content: space-between;
+  margin: 0 200px;
+  
+}
+
+.logo_txt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .logo_txt a {
@@ -37,6 +44,12 @@ a {
   letter-spacing: 0.05em;
   text-transform: uppercase;
   color: #000000;
+}
+
+.logo_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .logo_img img {
@@ -65,32 +78,20 @@ a {
 
 
 /*! КАРТОЧКА */
-.border-body-card {
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 20px 40px;
-  position: relative;
-  width: 290px;
-  height: 472px;
-  border: 1px solid #000000;
-  border-radius: 3px;
-}
-
 .body-card {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0px;
-  width: 210px;
-  height: 432px;
+  padding: 20px 40px;
+  margin-bottom: 50px;
+  height: 481px;
   flex: none;
   order: 0;
   align-self: stretch;
   flex-grow: 1;
+  border: 1px solid #000000;
+  border-radius: 3px;
 }
 
 .body-card img {
@@ -102,7 +103,7 @@ a {
   flex-grow: 0;
 }
 
-.body-card p.p {
+.body-card .name {
   width: 167px;
   height: 45px;
   font-family: 'Montserrat';
@@ -117,6 +118,22 @@ a {
   flex-grow: 0;
 }
 
+.body-card .author {
+  margin: 0 0 19px 0;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #000000;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+
+
 .body-card-a {
   display: flex;
   flex-direction: row;
@@ -127,7 +144,7 @@ a {
   width: 210px;
   height: 26px;
   flex: none;
-  order: 2;
+  order: 3;
   flex-grow: 0;
 }
 
@@ -144,12 +161,18 @@ a {
   border-radius: 3px;
 }
 
-.cards-three {
-  margin: 100px 200px 0 200px;
+.cards {
   display: flex;
+  margin: 50px 200px 0 200px;
   justify-content: space-between;
+  flex-wrap: wrap;
   align-items: center;
+}
 
+@media (max-width: 1016px) {
+  .cards {
+    justify-content: center;
+  }
 }
 
 
