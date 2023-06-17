@@ -1,14 +1,20 @@
-document.addEventListener("DOMContentLoaded", function(){
-  var scrollbar = document.body.clientWidth - window.innerWidth + 'px';
-  console.log(scrollbar);
-  document.querySelector('[href="#openModal"]').addEventListener('click',function(){
-    document.body.style.overflow = 'hidden';
-    document.querySelector('#openModal').style.marginLeft = scrollbar;
-  });
-  document.querySelector('[href="#close"]').addEventListener('click',function(){
-    document.body.style.overflow = 'visible';
-    document.querySelector('#openModal').style.marginLeft = '0px';
-  });
-});
+document.querySelector('.add').onclick = myClick;
 
+function myClick(){
+  let hero = document.querySelector('.hero').value;
+  let desc = document.querySelector('.description').value;
+  let ul = document.querySelector('.li-h')
+  // let newli = document.createElement("li");
+  // let newh3 = document.createElement("h3");
+  // let newp = document.createElement("p");
+  // let nameH = hero;
+  // let descH = desc;
 
+  // newh3.appendChild(nameH);
+  // newp.appendChild(descH);
+  // newli.appendChild(newh3);
+  // newli.appendChild(newp);
+  // ul.appendChild(newli);
+
+  ul.innerHTML += "<li><h3>" + hero + "</h3><p>" + desc + "</p></li>";
+}

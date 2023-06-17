@@ -60,8 +60,8 @@
                     </div>
                   </div>
                 </div>
-                <a class="a" href="#openH1">Герои</a>
-                <div id="openH1" class="modal">
+                <a class="a" href="#openModal">Герои</a>
+                <div id="openModal" class="modal">
                   <div class="modal-dialog">
                     <div class="modal-content">
                       <div class="modal-header">
@@ -69,13 +69,23 @@
                         <a href="#close" title="Close" class="close">×</a>
                       </div>
                       <div class="modal-body">
-                        <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Iusto, enim distinctio. Quam aliquam unde
-                          reprehenderit sunt suscipit cupiditate voluptatem
-                          repellendus, nihil perferendis repudiandae accusamus
-                          maiores officiis, quibusdam voluptas nobis dolor?
-                        </p>
+                        <ul class="li-h">
+                          <li>
+                            <h3>Герой 1</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci impedit distinctio cumque sint deleniti modi.</p>
+                          </li>
+                          <li>
+                            <h3>Герой 2</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Veritatis doloribus beatae ducimus fugit aperiam, ratione, 
+                            veniam architecto quaerat quia animi unde perferendis distinctio ullam quibusdam.</p>
+                          </li>
+                        </ul>
+                        <div class="add_heroes">
+                          <input type="text" name="" id="" class="hero" placeholder="Герой">
+                          <input type="text" name="" id="" class="description" placeholder="Описание">
+                          <button class="add">Добавить</button>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -199,7 +209,9 @@
           </div>
         </div>
       </main>
-      <footer></footer>
+      <footer>
+        <script src="./js/script.js"></script>
+      </footer>
     </div>
   </body>
 </html>
