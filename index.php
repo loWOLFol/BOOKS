@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Khorek</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="wrapper">
+		<header>
+			<nav class="menu">
+				<div class="logo">
+					<a href="index.php">69</a>
+				</div>
+				<div class="nav">
+					<a href="read.php">Прочитанно</a>
+					<a href="progress.php">Читается</a>
+					<a href="unread.php">Непрочитанно</a>
+				</div>
+			</nav>
+		</header>
+		<main>
+			<div class="table">
+				<div class="read">
+					<h2>Прочитанно</h2>
+					<ol>
+						<li>
+							<a href="" class="book">Летний дракон</a>					
+						</li>
+						<li><a href="" class="book">Жажда</a></li>
+						<li><a href="" class="book">Искушение</a></li>
+						<li><a href="" class="book">Пепел и души</a></li>
+						<li><a href="" class="book">Ночь королей</a></li>
+						<li><a href="" class="book">Десятый сосед</a></li>
+						<li><a href="" class="book">Аспид</a></li>
+						<li><a href="" class="book">Только ты</a></li>
+						<li><a href="" class="book">Эгоист</a></li>
+						<li><a href="" class="book">Снег как пепел</a></li>
+					</ol>
+				</div>
+				<div class="unread">
+					<h2>Непрочитанно</h2>
+					<ol>
+						<li><a href="" class="book">Девы</a></li>
+						<li><a href="" class="book">Игры наследников</a></li>
+						<li><a href="" class="book">Ловец видений</a></li>
+						<li><a href="" class="book">Искусники</a></li>
+						<li><a href="" class="book">Секция плавания для пьющих в одиночестве</a></li>
+						<li><a href="" class="book">Невеста ноября</a></li>
+						<li><a href="" class="book">Рыцарь</a></li>
+						<li><a href="" class="book">Неистовый</a></li>
+						<li><a href="" class="book">Вор. Книга 1</a></li>
+						<li><a href="" class="book">Все закончится на нас</a></li>
+					</ol>
+				</div>
+			</div>
+
+			
+		</main>
+		<footer>
+			<script src="./js/script.js"></script>
+		</footer>
+	</div>
+
+</body>
+</html>
